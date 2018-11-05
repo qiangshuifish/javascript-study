@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cookieParser</title>
+    <SCRIPT type="application/javascript">
+        window.onload  = function () {
+            document.cookie = "username = 张三";
+            document.cookie = "password = zhangsan";
+        }
+    </SCRIPT>
+</head>
+<body>
+    <form action="/cookies" method="post">
+        <button type="submit">发送cookie</button>
+    </form>
+</body>
+</html>

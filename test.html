@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head prefix='og: http://ogp.me/ns#'>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='object' property='og:type'>
+    <meta content='GitLab' property='og:site_name'>
+    <meta content='Commits · develop · sms / hermes-foundation' property='og:title'>
+    <meta content='运营管理系统' property='og:description'>
+    <meta content='https://code.ziroom.com/assets/gitlab_logo-cdf021b35c4e6bb149e26460f26fae81e80552bc879179dd80e9e9266b14e894.png'
+          property='og:image'>
+    <meta content='https://code.ziroom.com/sms/hermes-foundation/commits/develop' property='og:url'>
+    <meta content='summary' property='twitter:card'>
+    <meta content='Commits · develop · sms / hermes-foundation' property='twitter:title'>
+    <meta content='运营管理系统' property='twitter:description'>
+    <meta content='https://code.ziroom.com/assets/gitlab_logo-cdf021b35c4e6bb149e26460f26fae81e80552bc879179dd80e9e9266b14e894.png'
+          property='twitter:image'>
+
+    <title>Commits · develop · sms / hermes-foundation · GitLab</title>
+    <meta content='运营管理系统' name='description'>
+    <link rel="shortcut icon" type="image/x-icon"
+          href="/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico"/>
+    <link rel="stylesheet" media="all"
+          href="/assets/application-4e27b22391bb1664b7648ab62c8d19e71c6f9cb87a0592b3e93adb4dea7fc5f4.css"/>
+    <link rel="stylesheet" media="print"
+          href="/assets/print-68eed6d8135d858318821e790e25da27b2b4b9b8dbb1993fa6765d8e2e3e16ee.css"/>
+    <script src="/assets/application-08b6574c3555caacac9489e7086631598f038e89bf45f0d8b2cfa5343371108b.js"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token"
+          content="JpabuQIly9feHBDWrDt4VdXmF59KFbEukd+euu8X247Mmg3v4dXcf0DvbJ2LQ0VxGKtd1o9mAQzUP6kuC6SMSw=="/>
+    <script>
+        //<![CDATA[
+        window.gon = {};
+        gon.api_version = "v3";
+        gon.default_avatar_url = "https://code.ziroom.com/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png";
+        gon.default_issues_tracker = "gitlab";
+        gon.max_file_size = 200;
+        gon.relative_url_root = "";
+        gon.user_color_scheme = "white";
+        gon.current_user_id = 500;
+        gon.api_token = "ANyr53g98MGrsZ_h8PNs";
+        //]]>
+    </script>
+    <meta content='origin-when-cross-origin' name='referrer'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+    <meta content='#474D57' name='theme-color'>
+    <link rel="apple-touch-icon" type="image/x-icon"
+          href="/assets/touch-icon-iphone-2d64ecc33893baab71adc15ff19a803a59911cc2651fb9d4d62af1379ff89aab.png"/>
+    <link rel="apple-touch-icon" type="image/x-icon"
+          href="/assets/touch-icon-ipad-d08897d57e1bc9400024ac15465340e832a8e7b166b91624138d48ea2c739596.png"
+          sizes="76x76"/>
+    <link rel="apple-touch-icon" type="image/x-icon"
+          href="/assets/touch-icon-iphone-retina-81446c57f3351d1dacd0fb5f23ced74ba63d3878810bedea343999c6a12b3915.png"
+          sizes="120x120"/>
+    <link rel="apple-touch-icon" type="image/x-icon"
+          href="/assets/touch-icon-ipad-retina-e2a776da039936ac240e76615add47b25ab77c75a5fa2d1b3907f83d5502b911.png"
+          sizes="152x152"/>
+    <link color='rgb(226, 67, 41)'
+          href='/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg' rel='mask-icon'>
+    <meta content='/assets/msapplication-tile-49c9c46afd2ab9bbf35e69138bc62f8c31fa55584bd494956ac6e58e6aadc813.png'
+          name='msapplication-TileImage'>
+    <meta content='#30353E' name='msapplication-TileColor'>
+    <link rel="alternate" type="application/atom+xml" title="hermes-foundation:develop commits"
+          href="https://code.ziroom.com/sms/hermes-foundation/commits/develop.atom?private_token=ANyr53g98MGrsZ_h8PNs"/>
+
+
+    <style>
+        [data-user-is] {
+            display: none !important;
+        }
+
+        [data-user-is="500"] {
+            display: block !important;
+        }
+
+        [data-user-is="500"][data-display="inline"] {
+            display: inline !important;
+        }
+
+        [data-user-is-not] {
+            display: block !important;
+        }
+
+        [data-user-is-not][data-display="inline"] {
+            display: inline !important;
+        }
+
+        [data-user-is-not="500"] {
+            display: none !important;
+        }
+    </style>
+
+</head>
+
+<body class='ui_charcoal' data-page='projects:commits:show'>
+<script>
+    window.project_uploads_path = "/sms/hermes-foundation/uploads";
+    window.markdown_preview_path = "/sms/hermes-foundation/markdown_preview";
+</script>
+
+<header class='header-expanded navbar navbar-fixed-top navbar-gitlab'>
+    <div class='container-fluid'>
+        <div class='header-content'>
+            <button class='navbar-toggle' type='button'>
+                <span class='sr-only'>Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class='navbar-collapse collapse'>
+                <ul class='nav navbar-nav'>
+                    <li class='hidden-sm hidden-xs'>
+                        <div class='has-location-badge search search-form'>
+                            <form class="navbar-form" action="/search" accept-charset="UTF-8" method="get"><input
+                                    name="utf8" type="hidden" value="&#x2713;"/>
+                                <div class='search-input-container'>
+                                    <div class='search-location-badge'>
+<span class='location-badge'>
+<i class='location-text'>
+This project
+</i>
+</span>
+                                    </div>
+                                    <div class='search-input-wrap'>
+                                        <div class='dropdown' data-url='/search/autocomplete'>
+                                            <input type="search" name="search" id="search" placeholder="Search"
+                                                   class="search-input dropdown-menu-toggle" spellcheck="false"
+                                                   tabindex="1" autocomplete="off" data-toggle="dropdown"/>
+                                            <div class='dropdown-menu dropdown-select'>
+                                                <div class="dropdown-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a class='is-focused dropdown-menu-empty-link'>
+                                                                Loading...
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i>
+                                                </div>
+                                            </div>
+                                            <i class='search-icon'></i>
+                                            <i class='clear-icon js-clear-input'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="group_id" id="group_id"/>
+                                <input type="hidden" name="project_id" id="search_project_id" value="490"/>
+                                <input type="hidden" name="scope" id="scope" value="commits"/>
+                                <input type="hidden" name="repository_ref" id="repository_ref" value="develop"/>
+
+                                <div class='search-autocomplete-opts hide' data-autocomplete-path='/search/autocomplete'
+                                     data-autocomplete-project-id='490' data-autocomplete-project-ref='develop'></div>
+                            </form>
+
+                        </div>
+
+                    </li>
+                    <li class='visible-sm visible-xs'>
+                        <a title="Search" data-toggle="tooltip" data-placement="bottom" data-container="body"
+                           href="/search"><i class="fa fa-search"></i>
+                        </a></li>
+                    <li>
+                        <a title="Todos" data-toggle="tooltip" data-placement="bottom" data-container="body"
+                           href="/dashboard/todos"><span class='badge todos-pending-count'>
+0
+</span>
+                        </a></li>
+                    <li>
+                        <a title="New project" data-toggle="tooltip" data-placement="bottom" data-container="body"
+                           href="/projects/new"><i class="fa fa-plus fa-fw"></i>
+                        </a></li>
+                    <li>
+                        <a class="logout" title="Sign out" data-toggle="tooltip" data-placement="bottom"
+                           data-container="body" rel="nofollow" data-method="delete" href="/users/sign_out"><i
+                                class="fa fa-sign-out"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <h1 class='title'><a href="/groups/sms">sms</a> / <a class="project-item-select-holder"
+                                                                 href="/sms/hermes-foundation">hermes-foundation</a><i
+                    data-target=".js-dropdown-menu-projects" data-toggle="dropdown"
+                    class="fa fa-chevron-down dropdown-toggle-caret js-projects-dropdown-toggle"></i> &middot; <a
+                    href="/sms/hermes-foundation/commits/develop">Commits</a></h1>
+            <div class='js-dropdown-menu-projects'>
+                <div class='dropdown-menu dropdown-select dropdown-menu-projects'>
+                    <div class="dropdown-title"><span>Go to a project</span>
+                        <button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i
+                                class="fa fa-times dropdown-menu-close-icon"></i></button>
+                    </div>
+                    <div class="dropdown-input"><input type="search" id="" class="dropdown-input-field"
+                                                       placeholder="Search your projects"/><i
+                            class="fa fa-search dropdown-input-search"></i><i role="button"
+                                                                              class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i>
+                    </div>
+                    <div class="dropdown-content"></div>
+                    <div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<script>
+    var findFileURL = "/sms/hermes-foundation/find_file/develop";
+</script>
+
+<div class='page-sidebar-expanded page-with-sidebar'>
+
+
+    <div class='nicescroll sidebar-expanded sidebar-wrapper'>
+        <div class='header-logo'>
+            <a id='logo'>
+                <svg width="36" height="36" id="tanuki-logo">
+                    <path id="tanuki-right-ear" class="tanuki-shape" fill="#e24329"
+                          d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"/>
+                    <path id="tanuki-left-ear" class="tanuki-shape" fill="#e24329"
+                          d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"/>
+                    <path id="tanuki-nose" class="tanuki-shape" fill="#e24329" d="M18,34.38 3,14 33,14 Z"/>
+                    <path id="tanuki-right-eye" class="tanuki-shape" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"/>
+                    <path id="tanuki-left-eye" class="tanuki-shape" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"/>
+                    <path id="tanuki-right-cheek" class="tanuki-shape" fill="#fca326"
+                          d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"/>
+                    <path id="tanuki-left-cheek" class="tanuki-shape" fill="#fca326"
+                          d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"/>
+                </svg>
+
+            </a>
+            <a class="gitlab-text-container-link" title="Dashboard" id="js-shortcuts-home" href="/">
+                <div class='gitlab-text-container'>
+                    <h3>GitLab</h3>
+                </div>
+            </a></div>
+        <ul class='nav nav-sidebar'>
+            <li class=""><a title="Go to group" class="back-link" href="/groups/sms"><i
+                    class="fa fa-caret-square-o-left fa-fw"></i>
+                <span>
+Go to group
+</span>
+            </a></li>
+            <li class='separate-item'></li>
+            <li class="home"><a title="Project" class="shortcuts-project" href="/sms/hermes-foundation"><i
+                    class="fa fa-bookmark fa-fw"></i>
+                <span>
+Project
+</span>
+            </a></li>
+            <li class=""><a title="Activity" class="shortcuts-project-activity"
+                            href="/sms/hermes-foundation/activity"><i class="fa fa-dashboard fa-fw"></i>
+                <span>
+Activity
+</span>
+            </a></li>
+            <li class=""><a title="Files" class="shortcuts-tree" href="/sms/hermes-foundation/tree/develop"><i
+                    class="fa fa-files-o fa-fw"></i>
+                <span>
+Files
+</span>
+            </a></li>
+            <li class="active"><a title="Commits" class="shortcuts-commits"
+                                  href="/sms/hermes-foundation/commits/develop"><i class="fa fa-history fa-fw"></i>
+                <span>
+Commits
+</span>
+            </a></li>
+            <li class=""><a title="Builds" class="shortcuts-builds" href="/sms/hermes-foundation/builds"><i
+                    class="fa fa-cubes fa-fw"></i>
+                <span>
+Builds
+<span class='count builds_counter'>0</span>
+</span>
+            </a></li>
+            <li class=""><a title="Graphs" class="shortcuts-graphs" href="/sms/hermes-foundation/graphs/develop"><i
+                    class="fa fa-area-chart fa-fw"></i>
+                <span>
+Graphs
+</span>
+            </a></li>
+            <li class=""><a title="Milestones" href="/sms/hermes-foundation/milestones"><i
+                    class="fa fa-clock-o fa-fw"></i>
+                <span>
+Milestones
+</span>
+            </a></li>
+            <li class=""><a title="Issues" class="shortcuts-issues" href="/sms/hermes-foundation/issues"><i
+                    class="fa fa-exclamation-circle fa-fw"></i>
+                <span>
+Issues
+<span class='count issue_counter'>0</span>
+</span>
+            </a></li>
+            <li class=""><a title="Merge Requests" class="shortcuts-merge_requests"
+                            href="/sms/hermes-foundation/merge_requests"><i class="fa fa-tasks fa-fw"></i>
+                <span>
+Merge Requests
+<span class='count merge_counter'>0</span>
+</span>
+            </a></li>
+            <li class=""><a title="Members" class="team-tab tab" href="/sms/hermes-foundation/project_members"><i
+                    class="fa fa-users fa-fw"></i>
+                <span>
+Members
+</span>
+            </a></li>
+            <li class=""><a title="Labels" href="/sms/hermes-foundation/labels"><i class="fa fa-tags fa-fw"></i>
+                <span>
+Labels
+</span>
+            </a></li>
+            <li class=""><a title="Wiki" class="shortcuts-wiki" href="/sms/hermes-foundation/wikis/home"><i
+                    class="fa fa-book fa-fw"></i>
+                <span>
+Wiki
+</span>
+            </a></li>
+            <li class=""><a title="Forks" href="/sms/hermes-foundation/forks"><i class="fa fa-code-fork fa-fw"></i>
+                <span>
+Forks
+</span>
+            </a></li>
+            <li class='hidden'>
+                <a title="Network" class="shortcuts-network" href="/sms/hermes-foundation/network/develop">Network
+                </a></li>
+        </ul>
+
+        <div class='collapse-nav'>
+            <a class="toggle-nav-collapse" title="Open/Close" href="#"><i class="fa fa-angle-left"></i></a>
+
+        </div>
+        <a class="sidebar-user" title="Profile" href="/u/wenpengyuan"><img alt="Profile" class="avatar avatar s36"
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+            <div class='username'>
+                wenpengyuan
+            </div>
+        </a></div>
+    <div class='content-wrapper'>
+        <div class='flash-container'>
+        </div>
+
+
+        <div class='container-fluid container-limited'>
+            <div class='content'>
+                <div class='clearfix'>
+
+                    <ul class='nav-links'>
+                        <li class="active"><a href="/sms/hermes-foundation/commits/develop">Commits
+                            <span class='badge'>3,076</span>
+                        </a></li>
+                        <li class=""><a href="/sms/hermes-foundation/network/develop">Network
+                        </a></li>
+                        <li class=""><a href="/sms/hermes-foundation/compare?from=develop&amp;to=develop">Compare
+                        </a></li>
+                        <li class=""><a href="/sms/hermes-foundation/branches">Branches
+                            <span class='badge js-totalbranch-count'>64</span>
+                        </a></li>
+                        <li class=""><a href="/sms/hermes-foundation/tags">Tags
+                            <span class='badge js-totaltags-count'>1</span>
+                        </a></li>
+                    </ul>
+
+                    <div class='gray-content-block second-block'>
+                        <div class='tree-ref-holder'>
+                            <form class="project-refs-form" action="/sms/hermes-foundation/refs/switch"
+                                  accept-charset="UTF-8" method="get"><input name="utf8" type="hidden"
+                                                                             value="&#x2713;"/>
+                                <select name="ref" id="ref" class="project-refs-select select2 select2-sm">
+                                    <optgroup label="Branches">
+                                        <option selected="selected" value="develop">develop</option>
+                                        <option value="master">master</option>
+                                        <option value="test">test</option>
+                                        <option value="20161026_Refund_updateIspay">20161026_Refund_updateIspay</option>
+                                        <option value="20170704_ScheduleRule">20170704_ScheduleRule</option>
+                                        <option value="20171013_general_clean_migration">
+                                            20171013_general_clean_migration
+                                        </option>
+                                        <option value="PJ-DuiNeiChanNeng-20170801">PJ-DuiNeiChanNeng-20170801</option>
+                                        <option value="PJ_ZhouQi_20170828">PJ_ZhouQi_20170828</option>
+                                        <option value="asura_008">asura_008</option>
+                                        <option value="banjia_gerenzhongxin_1225">banjia_gerenzhongxin_1225</option>
+                                        <option value="banjia_xh_auto_dispatch_20180115">
+                                            banjia_xh_auto_dispatch_20180115
+                                        </option>
+                                        <option value="banjia_xm_20180306">banjia_xm_20180306</option>
+                                        <option value="banjiabaojie_0503">banjiabaojie_0503</option>
+                                        <option value="baojie_short_url_0428">baojie_short_url_0428</option>
+                                        <option value="baojiexuqiu_0102_0">baojiexuqiu_0102_0</option>
+                                        <option value="baojiexuqiu_0119">baojiexuqiu_0119</option>
+                                        <option value="baojiexuqiu_0320">baojiexuqiu_0320</option>
+                                        <option value="baojieyaoqing">baojieyaoqing</option>
+                                        <option value="bedroom-cleaning-2018-03-06">bedroom-cleaning-2018-03-06</option>
+                                        <option value="bedroom-cleaning2-20180329">bedroom-cleaning2-20180329</option>
+                                        <option value="capacity_20180601">capacity_20180601</option>
+                                        <option value="card20180118">card20180118</option>
+                                        <option value="clean-channeng2-2016-10-19">clean-channeng2-2016-10-19</option>
+                                        <option value="clean_ditu_20170301">clean_ditu_20170301</option>
+                                        <option value="clean_schedule_20160917">clean_schedule_20160917</option>
+                                        <option value="daily-need-2017-09-04">daily-need-2017-09-04</option>
+                                        <option value="daily-require-20180502">daily-require-20180502</option>
+                                        <option value="develop-product-20161128">develop-product-20161128</option>
+                                        <option value="exam-2017-10-26">exam-2017-10-26</option>
+                                        <option value="generalclean-lvxz5-xuqiu-20170711">
+                                            generalclean-lvxz5-xuqiu-20170711
+                                        </option>
+                                        <option value="generalclean-xuqiu-lvxz-20170510">
+                                            generalclean-xuqiu-lvxz-20170510
+                                        </option>
+                                        <option value="jianrongGYS_20180425">jianrongGYS_20180425</option>
+                                        <option value="jijiagaizao_20160602">jijiagaizao_20160602</option>
+                                        <option value="jijiagaizao_20170602">jijiagaizao_20170602</option>
+                                        <option value="month_exclusive_20161017">month_exclusive_20161017</option>
+                                        <option value="monthclean_restructure_2017-03-22">
+                                            monthclean_restructure_2017-03-22
+                                        </option>
+                                        <option value="move-richang-1020">move-richang-1020</option>
+                                        <option value="move_push_20180319">move_push_20180319</option>
+                                        <option value="move_region_es">move_region_es</option>
+                                        <option value="move_schedlue_20160902">move_schedlue_20160902</option>
+                                        <option value="move_xh_capacity_20171024">move_xh_capacity_20171024</option>
+                                        <option value="moveclean-20180523">moveclean-20180523</option>
+                                        <option value="moveclean_20180529">moveclean_20180529</option>
+                                        <option value="open_move_HZ_20170918">open_move_HZ_20170918</option>
+                                        <option value="pan_20180803">pan_20180803</option>
+                                        <option value="receipt">receipt</option>
+                                        <option value="refund_20180306">refund_20180306</option>
+                                        <option value="service_items_20160905_ljh">service_items_20160905_ljh</option>
+                                        <option value="service_tracing_screen">service_tracing_screen</option>
+                                        <option value="servicer-eliminate-2017-05-11">servicer-eliminate-2017-05-11
+                                        </option>
+                                        <option value="sms-app-2018-01-11">sms-app-2018-01-11</option>
+                                        <option value="ss001">ss001</option>
+                                        <option value="suppelier_schedule_20160823">suppelier_schedule_20160823</option>
+                                        <option value="supplier_20160906">supplier_20160906</option>
+                                        <option value="v.161010_sso_login">v.161010_sso_login</option>
+                                        <option value="v.161018_value_card_2">v.161018_value_card_2</option>
+                                        <option value="v.170329_value_pay">v.170329_value_pay</option>
+                                        <option value="v.170401_addPraise">v.170401_addPraise</option>
+                                        <option value="valueCard_20180322">valueCard_20180322</option>
+                                        <option value="wx_move">wx_move</option>
+                                        <option value="xianghuo_20161129">xianghuo_20161129</option>
+                                        <option value="xiaobanqianyi">xiaobanqianyi</option>
+                                        <option value="xiaobanxuqiu_20170327">xiaobanxuqiu_20170327</option>
+                                        <option value="z-space20180416">z-space20180416</option>
+                                    </optgroup>
+                                    <optgroup label="Tags">
+                                        <option value="xiaobanqianyi20170329">xiaobanqianyi20170329</option>
+                                    </optgroup>
+                                </select>
+                                <input type="hidden" name="destination" id="destination" value="commits"/>
+                            </form>
+
+
+                        </div>
+                        <div class='block-controls hidden-xs hidden-sm'>
+                            <div class='control'>
+                                <form class="pull-left commits-search-form"
+                                      action="/sms/hermes-foundation/commits/develop" accept-charset="UTF-8"
+                                      method="get"><input name="utf8" type="hidden" value="&#x2713;"/>
+                                    <input type="search" name="search" id="commits-search"
+                                           placeholder="Filter by commit message" class="form-control search-text-input"
+                                           spellcheck="false"/>
+                                </form>
+
+                            </div>
+                            <div class='control'>
+                                <a title="Commits Feed" class="btn"
+                                   href="/sms/hermes-foundation/commits/develop.atom?private_token=ANyr53g98MGrsZ_h8PNs"><i
+                                        class="fa fa-rss"></i>
+                                </a></div>
+                        </div>
+                        <ul class='breadcrumb repo-breadcrumb'>
+                            <li><a href="/sms/hermes-foundation/commits/develop">hermes-foundation</a></li>
+                        </ul>
+                    </div>
+                    <div id='project_490'>
+                        <div class='content_list' id='commits-list'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>28 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        3 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-d9bc6642'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/d9bc6642d047d54246ce6a6b0b489b9331b6ccfd">放开注释</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/d9bc6642d047d54246ce6a6b0b489b9331b6ccfd/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="d9bc6642d047d54246ce6a6b0b489b9331b6ccfd"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/d9bc6642d047d54246ce6a6b0b489b9331b6ccfd">d9bc6642</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-28T07:10:12Z" title="Aug 28, 2018 3:10pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-28 15:10:12 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/d9bc6642d047d54246ce6a6b0b489b9331b6ccfd">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-7bd3d97f'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/7bd3d97fb6e9409dfebd60655c8c494f152f4e54">Merge remote-tracking branch 'origin/develop' into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/7bd3d97fb6e9409dfebd60655c8c494f152f4e54/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="7bd3d97fb6e9409dfebd60655c8c494f152f4e54"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/7bd3d97fb6e9409dfebd60655c8c494f152f4e54">7bd3d97f</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-28T07:07:38Z" title="Aug 28, 2018 3:07pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-28 15:07:38 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/7bd3d97fb6e9409dfebd60655c8c494f152f4e54">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-7a7d9aa2'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/7a7d9aa268e3af17a582f3aeaf530c911030491c">影响其他的业务，注释掉</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="7a7d9aa268e3af17a582f3aeaf530c911030491c"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/7a7d9aa268e3af17a582f3aeaf530c911030491c">7a7d9aa2</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-28T07:03:44Z" title="Aug 28, 2018 3:03pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-28 15:03:44 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/7a7d9aa268e3af17a582f3aeaf530c911030491c">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>27 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        3 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-2a7e2b40'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/2a7e2b40faefe5259f2dac1c142dc101d9849ad5">修改后台退款逻辑。。。。。。。。。。。。。。。。</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/2a7e2b40faefe5259f2dac1c142dc101d9849ad5/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="2a7e2b40faefe5259f2dac1c142dc101d9849ad5"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/2a7e2b40faefe5259f2dac1c142dc101d9849ad5">2a7e2b40</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lijh99@ziroom.com"
+                                                   href="/u/lijh99"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">李静辉</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-27T03:23:26Z" title="Aug 27, 2018 11:23am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-27 11:23:26 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/2a7e2b40faefe5259f2dac1c142dc101d9849ad5">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-f2d7480f'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/f2d7480f672a79112dc363fc83acd133ec1b7f92">Merge branch 'develop' of </a><a
+        href="https://code.ziroom.com/sms/hermes-foundation">https://code.ziroom.com/sms/hermes-foundation</a><a
+        class="commit-row-message" href="/sms/hermes-foundation/commit/f2d7480f672a79112dc363fc83acd133ec1b7f92"> into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/f2d7480f672a79112dc363fc83acd133ec1b7f92/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="f2d7480f672a79112dc363fc83acd133ec1b7f92"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/f2d7480f672a79112dc363fc83acd133ec1b7f92">f2d7480f</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lijh99@ziroom.com"
+                                                   href="/u/lijh99"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">李静辉</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-27T03:21:53Z" title="Aug 27, 2018 11:21am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-27 11:21:53 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/f2d7480f672a79112dc363fc83acd133ec1b7f92">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-d8919db5'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/d8919db555753ab6b529663666a89c30a4ce340d">修改后台退款逻辑。。。。。。。。。。。。。。。。</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="d8919db555753ab6b529663666a89c30a4ce340d"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/d8919db555753ab6b529663666a89c30a4ce340d">d8919db5</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lijh99@ziroom.com"
+                                                   href="/u/lijh99"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">李静辉</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-27T03:21:42Z" title="Aug 27, 2018 11:21am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-27 11:21:42 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/d8919db555753ab6b529663666a89c30a4ce340d">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>23 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        6 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-60eafb12'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/60eafb12b689ad0f5968c9ba47dda989c71b9436">搬家时间可用规则</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/60eafb12b689ad0f5968c9ba47dda989c71b9436/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="60eafb12b689ad0f5968c9ba47dda989c71b9436"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/60eafb12b689ad0f5968c9ba47dda989c71b9436">60eafb12</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="caosj5@ziroom.com"
+                                                   href="/u/caosj5"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">曹守军</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T12:40:17Z" title="Aug 23, 2018 8:40pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 20:40:17 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/60eafb12b689ad0f5968c9ba47dda989c71b9436">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-ad2dc49e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/ad2dc49e9d30b45a5da6eda8548e38d865985b92">搬家时间可用规则</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/ad2dc49e9d30b45a5da6eda8548e38d865985b92/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="ad2dc49e9d30b45a5da6eda8548e38d865985b92"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/ad2dc49e9d30b45a5da6eda8548e38d865985b92">ad2dc49e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="caosj5@ziroom.com"
+                                                   href="/u/caosj5"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">曹守军</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T12:09:20Z" title="Aug 23, 2018 8:09pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 20:09:20 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/ad2dc49e9d30b45a5da6eda8548e38d865985b92">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-c7b13a91'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/c7b13a9174f362f119fd4be7d6faba5c2359d108">Merge branch 'develop' of </a><a
+        href="https://code.ziroom.com/sms/hermes-foundation">https://code.ziroom.com/sms/hermes-foundation</a><a
+        class="commit-row-message" href="/sms/hermes-foundation/commit/c7b13a9174f362f119fd4be7d6faba5c2359d108"> into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="c7b13a9174f362f119fd4be7d6faba5c2359d108"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/c7b13a9174f362f119fd4be7d6faba5c2359d108">c7b13a91</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="caosj5@ziroom.com"
+                                                   href="/u/caosj5"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">曹守军</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T04:08:38Z" title="Aug 23, 2018 12:08pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 12:08:38 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/c7b13a9174f362f119fd4be7d6faba5c2359d108">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-0a1ca8dd'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/0a1ca8ddd7e67da6f014e91cdba7d4796396e209">搬家时间可用规则</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="0a1ca8ddd7e67da6f014e91cdba7d4796396e209"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/0a1ca8ddd7e67da6f014e91cdba7d4796396e209">0a1ca8dd</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="caosj5@ziroom.com"
+                                                   href="/u/caosj5"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">曹守军</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T04:08:31Z" title="Aug 23, 2018 12:08pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 12:08:31 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/0a1ca8ddd7e67da6f014e91cdba7d4796396e209">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-5a192ee0'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/5a192ee0ba0b55dec913da85264c52533bddb171">Merge remote-tracking branch 'origin/develop' into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/5a192ee0ba0b55dec913da85264c52533bddb171/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="5a192ee0ba0b55dec913da85264c52533bddb171"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/5a192ee0ba0b55dec913da85264c52533bddb171">5a192ee0</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T01:49:03Z" title="Aug 23, 2018 9:49am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 09:49:03 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/5a192ee0ba0b55dec913da85264c52533bddb171">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-d4d1af80'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/d4d1af8065317529a13db9eec8126514a1bc3bcd">中搬周末当天预约0823-1</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="d4d1af8065317529a13db9eec8126514a1bc3bcd"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/d4d1af8065317529a13db9eec8126514a1bc3bcd">d4d1af80</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-23T01:48:52Z" title="Aug 23, 2018 9:48am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-23 09:48:52 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/d4d1af8065317529a13db9eec8126514a1bc3bcd">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>22 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        2 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-45abf2ca'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/45abf2ca6cec057f84c4b30b8122e14e16b15417">校验类型写错了</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/45abf2ca6cec057f84c4b30b8122e14e16b15417/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="45abf2ca6cec057f84c4b30b8122e14e16b15417"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/45abf2ca6cec057f84c4b30b8122e14e16b15417">45abf2ca</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-22T02:17:07Z" title="Aug 22, 2018 10:17am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-22 10:17:07 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/45abf2ca6cec057f84c4b30b8122e14e16b15417">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-95d68f7c'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/95d68f7c44311cfa6e5b8a572ca69882e0e56191">小程序类型常量提交</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/95d68f7c44311cfa6e5b8a572ca69882e0e56191/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="95d68f7c44311cfa6e5b8a572ca69882e0e56191"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/95d68f7c44311cfa6e5b8a572ca69882e0e56191">95d68f7c</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-22T01:03:11Z" title="Aug 22, 2018 9:03am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-22 09:03:11 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/95d68f7c44311cfa6e5b8a572ca69882e0e56191">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>21 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        7 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-e886e289'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/e886e28986ef82d7cd357789685d12dad5d1bbbc">Merge remote-tracking branch 'origin/develop' into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/e886e28986ef82d7cd357789685d12dad5d1bbbc/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="e886e28986ef82d7cd357789685d12dad5d1bbbc"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/e886e28986ef82d7cd357789685d12dad5d1bbbc">e886e289</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T11:32:55Z" title="Aug 21, 2018 7:32pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 19:32:55 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/e886e28986ef82d7cd357789685d12dad5d1bbbc">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-644e33a2'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/644e33a2d32520f37acf0af38300eb10c5564c2e">添加空校验</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="644e33a2d32520f37acf0af38300eb10c5564c2e"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/644e33a2d32520f37acf0af38300eb10c5564c2e">644e33a2</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T11:32:25Z" title="Aug 21, 2018 7:32pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 19:32:25 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/644e33a2d32520f37acf0af38300eb10c5564c2e">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-54e9b0c2'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/54e9b0c2618740c6339d951120bee339b5d85993">保洁监察系统</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/54e9b0c2618740c6339d951120bee339b5d85993/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="54e9b0c2618740c6339d951120bee339b5d85993"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/54e9b0c2618740c6339d951120bee339b5d85993">54e9b0c2</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lvxz5@ziroom.com"
+                                                   href="/u/lvxz5"><img class="avatar s24" width="24" alt=""
+                                                                        src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">吕兴志</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T06:48:54Z" title="Aug 21, 2018 2:48pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 14:48:54 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/54e9b0c2618740c6339d951120bee339b5d85993">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-3940d836'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/3940d836c18db0e7c7cf67e6fe89e0e69e4210fe">Merge branch 'develop' of </a><a
+        href="https://code.ziroom.com/sms/hermes-foundation">https://code.ziroom.com/sms/hermes-foundation</a><a
+        class="commit-row-message" href="/sms/hermes-foundation/commit/3940d836c18db0e7c7cf67e6fe89e0e69e4210fe"> into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/3940d836c18db0e7c7cf67e6fe89e0e69e4210fe/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="3940d836c18db0e7c7cf67e6fe89e0e69e4210fe"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/3940d836c18db0e7c7cf67e6fe89e0e69e4210fe">3940d836</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lijh99@ziroom.com"
+                                                   href="/u/lijh99"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">李静辉</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T06:33:16Z" title="Aug 21, 2018 2:33pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 14:33:16 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/3940d836c18db0e7c7cf67e6fe89e0e69e4210fe">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-9dbba88e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/9dbba88eda5dc73f627e09e5a7b0da10aca60182">修复组合查询ES问题。。。。。。。。。</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="9dbba88eda5dc73f627e09e5a7b0da10aca60182"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/9dbba88eda5dc73f627e09e5a7b0da10aca60182">9dbba88e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lijh99@ziroom.com"
+                                                   href="/u/lijh99"><img class="avatar s24" width="24" alt=""
+                                                                         src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">李静辉</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T06:32:56Z" title="Aug 21, 2018 2:32pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 14:32:56 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/9dbba88eda5dc73f627e09e5a7b0da10aca60182">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-67f2aa25'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/67f2aa25cf532544c4a0dbe4b7811069a67ab430">保洁监察系统</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/67f2aa25cf532544c4a0dbe4b7811069a67ab430/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="67f2aa25cf532544c4a0dbe4b7811069a67ab430"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/67f2aa25cf532544c4a0dbe4b7811069a67ab430">67f2aa25</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="lvxz5@ziroom.com"
+                                                   href="/u/lvxz5"><img class="avatar s24" width="24" alt=""
+                                                                        src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">吕兴志</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T03:38:39Z" title="Aug 21, 2018 11:38am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 11:38:39 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/67f2aa25cf532544c4a0dbe4b7811069a67ab430">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-7c1c7ca4'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/7c1c7ca4d776db75083bb27392379fb02a365f11">用户id没有绑上</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="7c1c7ca4d776db75083bb27392379fb02a365f11"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/7c1c7ca4d776db75083bb27392379fb02a365f11">7c1c7ca4</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-21T02:38:04Z" title="Aug 21, 2018 10:38am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-21 10:38:04 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/7c1c7ca4d776db75083bb27392379fb02a365f11">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>20 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        10 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-5179ad5c'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/5179ad5cd141687742267b49c021256fcbe1f3b6">用户资源</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/5179ad5cd141687742267b49c021256fcbe1f3b6/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="5179ad5cd141687742267b49c021256fcbe1f3b6"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/5179ad5cd141687742267b49c021256fcbe1f3b6">5179ad5c</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T11:27:54Z" title="Aug 20, 2018 7:27pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 19:27:54 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/5179ad5cd141687742267b49c021256fcbe1f3b6">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-bc98eb05'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/bc98eb059c955faddd95ca743142e244c85806a5">新角色权限</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/bc98eb059c955faddd95ca743142e244c85806a5/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="bc98eb059c955faddd95ca743142e244c85806a5"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/bc98eb059c955faddd95ca743142e244c85806a5">bc98eb05</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T11:20:20Z" title="Aug 20, 2018 7:20pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 19:20:20 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/bc98eb059c955faddd95ca743142e244c85806a5">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-25fcdc34'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/25fcdc346484a2ea92dca1322c8f53e47e0b689f">新角色权限</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/25fcdc346484a2ea92dca1322c8f53e47e0b689f/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="25fcdc346484a2ea92dca1322c8f53e47e0b689f"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/25fcdc346484a2ea92dca1322c8f53e47e0b689f">25fcdc34</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T09:32:42Z" title="Aug 20, 2018 5:32pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 17:32:42 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/25fcdc346484a2ea92dca1322c8f53e47e0b689f">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-8942394e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/8942394ef976c71c5307fe1635376e96ed9a0190">修正参数传递方式</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/8942394ef976c71c5307fe1635376e96ed9a0190/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="8942394ef976c71c5307fe1635376e96ed9a0190"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/8942394ef976c71c5307fe1635376e96ed9a0190">8942394e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="wenpengyuan@ziroom.com"
+                                                   href="/u/wenpengyuan"><img class="avatar s24" width="24" alt=""
+                                                                              src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">wenpengyuan</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T09:02:07Z" title="Aug 20, 2018 5:02pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 17:02:07 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/8942394ef976c71c5307fe1635376e96ed9a0190">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-828047e3'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/828047e3a5ec75255a13b5467c6f9cd605590617">监察权限相关</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/828047e3a5ec75255a13b5467c6f9cd605590617/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="828047e3a5ec75255a13b5467c6f9cd605590617"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/828047e3a5ec75255a13b5467c6f9cd605590617">828047e3</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="zhangll6@ziroom.com"
+                                                   href="/u/zhangll6"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">zhangll6</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T06:27:32Z" title="Aug 20, 2018 2:27pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 14:27:32 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/828047e3a5ec75255a13b5467c6f9cd605590617">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-b2a34b3a'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/b2a34b3a44b1d90afbce343085ae2f7d9311b645">新觉色权限</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/b2a34b3a44b1d90afbce343085ae2f7d9311b645/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="b2a34b3a44b1d90afbce343085ae2f7d9311b645"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/b2a34b3a44b1d90afbce343085ae2f7d9311b645">b2a34b3a</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T03:47:29Z" title="Aug 20, 2018 11:47am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 11:47:29 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/b2a34b3a44b1d90afbce343085ae2f7d9311b645">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-74e02b6c'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/74e02b6c57f0d7adbb502cb5a941bd7e9fbc05f6">监察权限相关</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/74e02b6c57f0d7adbb502cb5a941bd7e9fbc05f6/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="74e02b6c57f0d7adbb502cb5a941bd7e9fbc05f6"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/74e02b6c57f0d7adbb502cb5a941bd7e9fbc05f6">74e02b6c</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="zhangll6@ziroom.com"
+                                                   href="/u/zhangll6"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">zhangll6</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T03:18:06Z" title="Aug 20, 2018 11:18am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 11:18:06 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/74e02b6c57f0d7adbb502cb5a941bd7e9fbc05f6">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-884333aa'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/884333aacb33ad3b70771f86ea784c96ee667696">新觉色权限</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/884333aacb33ad3b70771f86ea784c96ee667696/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="884333aacb33ad3b70771f86ea784c96ee667696"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/884333aacb33ad3b70771f86ea784c96ee667696">884333aa</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T02:11:04Z" title="Aug 20, 2018 10:11am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 10:11:04 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/884333aacb33ad3b70771f86ea784c96ee667696">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-7e605aeb'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/7e605aebd7029c1b4e07e1de977a75715b7b5f45">新角色  权限</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/7e605aebd7029c1b4e07e1de977a75715b7b5f45/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="7e605aebd7029c1b4e07e1de977a75715b7b5f45"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/7e605aebd7029c1b4e07e1de977a75715b7b5f45">7e605aeb</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T02:05:48Z" title="Aug 20, 2018 10:05am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 10:05:48 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/7e605aebd7029c1b4e07e1de977a75715b7b5f45">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-09ac8859'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/09ac885913d837c725eb38f472a371c182d1ce73">配合 监察系统的增删改查</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/09ac885913d837c725eb38f472a371c182d1ce73/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="09ac885913d837c725eb38f472a371c182d1ce73"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/09ac885913d837c725eb38f472a371c182d1ce73">09ac8859</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="jiangn18@ziroom.com"
+                                                   href="/u/jiangn18"><img class="avatar s24" width="24" alt=""
+                                                                           src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">蒋念</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-20T01:43:50Z" title="Aug 20, 2018 9:43am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-20 09:43:50 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/09ac885913d837c725eb38f472a371c182d1ce73">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>19 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        1 commit
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-d1b6a61e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/d1b6a61e1830fd0d5b3550a66d49eec7eccf0f08">储值卡购买 维修结算方式</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/d1b6a61e1830fd0d5b3550a66d49eec7eccf0f08/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="d1b6a61e1830fd0d5b3550a66d49eec7eccf0f08"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/d1b6a61e1830fd0d5b3550a66d49eec7eccf0f08">d1b6a61e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="sus1@ziroom.com"
+                                                   href="/u/sus1"><img class="avatar s24" width="24" alt=""
+                                                                       src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">sus1</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-19T12:32:14Z" title="Aug 19, 2018 8:32pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-19 20:32:14 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/d1b6a61e1830fd0d5b3550a66d49eec7eccf0f08">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>18 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        3 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-4bb1769e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/4bb1769e1bd1d09fea86b581eacf9fa3b29436e9">储值卡购买 维修结算方式</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/4bb1769e1bd1d09fea86b581eacf9fa3b29436e9/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="4bb1769e1bd1d09fea86b581eacf9fa3b29436e9"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/4bb1769e1bd1d09fea86b581eacf9fa3b29436e9">4bb1769e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="sus1@ziroom.com"
+                                                   href="/u/sus1"><img class="avatar s24" width="24" alt=""
+                                                                       src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">sus1</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-18T02:15:29Z" title="Aug 18, 2018 10:15am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-18 10:15:29 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/4bb1769e1bd1d09fea86b581eacf9fa3b29436e9">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-d8ecbde4'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/d8ecbde476845e799f2f230f1947bae36c35e481">Merge remote-tracking branch 'origin/develop' into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/d8ecbde476845e799f2f230f1947bae36c35e481/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="d8ecbde476845e799f2f230f1947bae36c35e481"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/d8ecbde476845e799f2f230f1947bae36c35e481">d8ecbde4</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="sus1@ziroom.com"
+                                                   href="/u/sus1"><img class="avatar s24" width="24" alt=""
+                                                                       src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">sus1</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-18T02:14:04Z" title="Aug 18, 2018 10:14am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-18 10:14:04 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/d8ecbde476845e799f2f230f1947bae36c35e481">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-a678eb83'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/a678eb839c0597366793db43373d387f526c7754">储值卡购买 维修结算方式</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="a678eb839c0597366793db43373d387f526c7754"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/a678eb839c0597366793db43373d387f526c7754">a678eb83</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="sus1@ziroom.com"
+                                                   href="/u/sus1"><img class="avatar s24" width="24" alt=""
+                                                                       src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">sus1</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-18T02:13:52Z" title="Aug 18, 2018 10:13am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-18 10:13:52 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/a678eb839c0597366793db43373d387f526c7754">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>17 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        2 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-41f93b7e'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/41f93b7e4b7851fc404d6dddc2d9f5a5325d7812">app版本0821-17</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/41f93b7e4b7851fc404d6dddc2d9f5a5325d7812/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="41f93b7e4b7851fc404d6dddc2d9f5a5325d7812"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/41f93b7e4b7851fc404d6dddc2d9f5a5325d7812">41f93b7e</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-17T03:51:22Z" title="Aug 17, 2018 11:51am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-17 11:51:22 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/41f93b7e4b7851fc404d6dddc2d9f5a5325d7812">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-9a0cfb4a'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/9a0cfb4acd1cbb22f24500bcc92f4efdcfed84bb">app版本0821-17</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/9a0cfb4acd1cbb22f24500bcc92f4efdcfed84bb/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="9a0cfb4acd1cbb22f24500bcc92f4efdcfed84bb"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/9a0cfb4acd1cbb22f24500bcc92f4efdcfed84bb">9a0cfb4a</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-17T03:28:44Z" title="Aug 17, 2018 11:28am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-17 11:28:44 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/9a0cfb4acd1cbb22f24500bcc92f4efdcfed84bb">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                            <div class='row commits-row'>
+                                <div class='col-md-2 hidden-xs hidden-sm'>
+                                    <h5 class='commits-row-date'>
+                                        <i class='fa fa-calendar'></i>
+                                        <span>16 Aug, 2018</span>
+                                    </h5>
+                                    <div class='light'>
+                                        3 commits
+                                    </div>
+                                </div>
+                                <div class='col-md-10 col-sm-12'>
+                                    <ul class='content-list'>
+                                        <li class='commit js-toggle-container' id='commit-c86905e2'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/c86905e2b4c484e47a7fb914b539f922afb5c060">app版本0821-16</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/c86905e2b4c484e47a7fb914b539f922afb5c060/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="c86905e2b4c484e47a7fb914b539f922afb5c060"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/c86905e2b4c484e47a7fb914b539f922afb5c060">c86905e2</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-16T08:59:33Z" title="Aug 16, 2018 4:59pm"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-16 16:59:33 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/c86905e2b4c484e47a7fb914b539f922afb5c060">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-777d0669'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/sms/hermes-foundation/commit/777d0669df303cec235ae2affcd7a71cb75715e4">Merge remote-tracking branch 'origin/develop' into develop</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <a class="ci-status-link ci-status-icon-skipped"
+                                                       title="Build skipped" data-toggle="tooltip"
+                                                       data-placement="auto left"
+                                                       href="/sms/hermes-foundation/commit/777d0669df303cec235ae2affcd7a71cb75715e4/builds"><i
+                                                            class="fa fa-circle fa-fw"></i></a>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="777d0669df303cec235ae2affcd7a71cb75715e4"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/777d0669df303cec235ae2affcd7a71cb75715e4">777d0669</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-16T02:55:04Z" title="Aug 16, 2018 10:55am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-16 10:55:04 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/777d0669df303cec235ae2affcd7a71cb75715e4">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+                                        <li class='commit js-toggle-container' id='commit-8c6c8f93'>
+                                            <div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message"
+   href="/sms/hermes-foundation/commit/8c6c8f9375713ed821190f6911b64b5ad37c3948">app版本0821-16</a>
+</span>
+                                                <div class='pull-right'>
+                                                    <button class="btn btn-clipboard"
+                                                            data-clipboard-text="8c6c8f9375713ed821190f6911b64b5ad37c3948"
+                                                            type="button"><i class="fa fa-clipboard"></i></button>
+                                                    <a class="commit_short_id"
+                                                       href="/sms/hermes-foundation/commit/8c6c8f9375713ed821190f6911b64b5ad37c3948">8c6c8f93</a>
+                                                </div>
+                                            </div>
+                                            <div class='commit-row-info'>
+                                                by
+                                                <a class="commit-author-link has-tooltip" title="ren0727)$!$"
+                                                   href="mailto:ren0727%29%24%21%24"><img class="avatar s24" width="24"
+                                                                                          alt=""
+                                                                                          src="/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png"/>
+                                                    <span class="commit-author-name">renxw4</span></a>
+                                                <div class='committed_ago'>
+                                                    <time class="time_ago js-timeago js-timeago-pending"
+                                                          datetime="2018-08-16T02:54:46Z" title="Aug 16, 2018 10:54am"
+                                                          data-toggle="tooltip" data-placement="top"
+                                                          data-container="body">2018-08-16 10:54:46 +0800
+                                                    </time>
+                                                    <script>
+                                                        //<![CDATA[
+                                                        $('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+                                                        //]]>
+                                                    </script> &nbsp;
+                                                </div>
+                                                <a class="pull-right"
+                                                   href="/sms/hermes-foundation/tree/8c6c8f9375713ed821190f6911b64b5ad37c3948">Browse
+                                                    Files</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class='lists-separator'>
+                        </div>
+                    </div>
+                    <div class='clear'></div>
+                    <div class="loading hide"><i class="fa fa-spinner fa-spin"></i></div>
+                    <script>
+                        CommitsList.init(40);
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
